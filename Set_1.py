@@ -1,5 +1,5 @@
-def to_set(input_string):
-  st = set(input_string)
+def to_set(input_str):
+  st = set(input_str)
   return st, len(st)
 y = 'y'
 while y == 'y':
