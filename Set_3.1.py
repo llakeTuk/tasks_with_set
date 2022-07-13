@@ -18,3 +18,4 @@ while y == 'y':
   else:
     print('invalid symbol')
   y = input('restart?(y/n): ')
+print('goodbye')
