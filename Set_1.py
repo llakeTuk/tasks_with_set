@@ -7,3 +7,4 @@ while y == 'y':
   print(to_set(input_data))
   print(*to_set(input_data))
   y = input('restart?(y/n): ')
+print('goodbye')
