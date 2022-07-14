@@ -1,7 +1,7 @@
 from collections.abc import Hashable
 
 def list_to_set(input_list):
-  st = {element for element in input_list if isinstance(element, Hashable)}
+  st = {elem for elem in input_list if isinstance(elem, Hashable)}
   print(st)
 y = 'y'
 while y == 'y':
