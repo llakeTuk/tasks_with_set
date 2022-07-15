@@ -1,4 +1,3 @@
-
 def super_set(set_1, set_2):
   if set_1 > set_2:
     print(f'{set_1} is super set')
@@ -14,3 +13,4 @@ while y == 'y':
   input_set_2 = set(input('enter set 2 of elements, using comma: ').split(','))
   super_set(input_set_1, input_set_2)
   y = input('restart?(y/n): ')
+print('goodbye')
