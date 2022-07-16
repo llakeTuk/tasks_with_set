@@ -1,4 +1,3 @@
-
 def set_generation(lst):
   list_index = 0
   while list_index < len(lst):
@@ -12,3 +11,4 @@ while y == 'y':
   input_list = list(map(int, input('enter list of integer numbers, using comma: ').split(',')))
   print(set_generation(input_list))
   y = input('restart?(y/n): ')
+print('goodbye')
